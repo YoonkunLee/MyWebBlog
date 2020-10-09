@@ -1,11 +1,41 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.OData.Edm/7.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OData.Edm.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.OData.Edm/7.7.2": {
+      "sha512": "GYtbLIRetY5XkpQ2yFeOEmVm2zjUCkZnMrvsWURZ1JQE2rE8fKBfaLQbzA5+A/arVwl3ZsN40Z7vzhaMBjKgvw==",
+      "type": "package",
+      "path": "microsoft.odata.edm/7.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.OData.Edm.dll",
+        "lib/net45/Microsoft.OData.Edm.xml",
+        "lib/netstandard1.1/Microsoft.OData.Edm.dll",
+        "lib/netstandard1.1/Microsoft.OData.Edm.xml",
+        "lib/netstandard2.0/Microsoft.OData.Edm.dll",
+        "lib/netstandard2.0/Microsoft.OData.Edm.xml",
+        "microsoft.odata.edm.7.7.2.nupkg.sha512",
+        "microsoft.odata.edm.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.OData.Edm >= 7.7.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Yoonkun Lee\\.nuget\\packages\\": {},
@@ -14,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog\\MyWebBlog\\MyWebBlog.csproj",
+      "projectUniqueName": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog\\MyWebBlog.csproj",
       "projectName": "MyWebBlog",
-      "projectPath": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog\\MyWebBlog\\MyWebBlog.csproj",
+      "projectPath": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog\\MyWebBlog.csproj",
       "packagesPath": "C:\\Users\\Yoonkun Lee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog\\MyWebBlog\\obj\\",
+      "outputPath": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -47,6 +77,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.OData.Edm": {
+            "target": "Package",
+            "version": "[7.7.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
