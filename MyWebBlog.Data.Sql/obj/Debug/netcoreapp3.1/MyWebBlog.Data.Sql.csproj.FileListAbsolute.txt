@@ -1,0 +1,10 @@
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.exe
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.deps.json
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.runtimeconfig.json
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.runtimeconfig.dev.json
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.pdb
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\obj\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.AssemblyInfoInputs.cache
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\obj\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.AssemblyInfo.cs
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\obj\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\obj\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.pdb
