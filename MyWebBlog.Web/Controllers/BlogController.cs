@@ -34,7 +34,7 @@ namespace MyWebBlog.Web.Controllers
             BlogDataModel newBlog = blogservice.CreateNewBlog(blog);
             _blog.Create(newBlog);
             
-            return View("Index");            
+            return RedirectToAction("Index", "Blog");            
         }
 
 
@@ -43,11 +43,6 @@ namespace MyWebBlog.Web.Controllers
             BlogViewModel blog = new BlogViewModel();
             blog.writer = "Yoonkun Lee";
             return View(blog);
-        }
-
-        public IActionResult GoToCreateBlog()
-        {
-            return View("CreateBlog");
         }
 
         public IActionResult BlogDetail(Guid id)
@@ -74,14 +69,14 @@ namespace MyWebBlog.Web.Controllers
             updateBlog.Id = blog.Id;
             _blog.Update(updateBlog);
 
-            return View("Index");
+            return RedirectToAction("Index", "Blog");
         }
 
         public IActionResult BlogDelete(Guid id)
         {
             _blog.Delete(id);
-                
-            return View("Index");
+
+            return RedirectToAction("Index", "Blog");
         }
     }
 }
