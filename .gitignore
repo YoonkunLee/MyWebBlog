@@ -1,3 +1,4 @@
-Setup/
+Database/Setup/
 DatabaseConnection.cs
 *.sql
+Setup/

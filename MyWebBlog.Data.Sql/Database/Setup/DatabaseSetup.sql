@@ -9,3 +9,4 @@ CREATE TABLE blog(
 	body varchar(max),
 	CONSTRAINT PK_blog PRIMARY KEY(id)
 );
+asdasdasdasd
