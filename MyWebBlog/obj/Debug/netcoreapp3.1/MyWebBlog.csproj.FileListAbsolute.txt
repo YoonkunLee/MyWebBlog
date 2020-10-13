@@ -12,3 +12,10 @@ C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.AssemblyInfo.cs
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.dll
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.pdb
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog\bin\Debug\netcoreapp3.1\MyWebBlog.deps.json
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog\bin\Debug\netcoreapp3.1\MyWebBlog.runtimeconfig.json
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog\bin\Debug\netcoreapp3.1\MyWebBlog.runtimeconfig.dev.json
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog\bin\Debug\netcoreapp3.1\MyWebBlog.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog\bin\Debug\netcoreapp3.1\MyWebBlog.pdb
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.pdb

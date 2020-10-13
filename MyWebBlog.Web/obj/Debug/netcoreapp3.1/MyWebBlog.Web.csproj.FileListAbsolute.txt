@@ -106,7 +106,6 @@ C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\obj\Debug\netcore
 C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\MyWebBlog.Web.dll
 C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\MyWebBlog.Web.pdb
 C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
-C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\Razor\Views\Blog\CreateBlog.cshtml.g.cs
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\MyWebBlog.Web.csprojAssemblyReference.cache
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\staticwebassets\MyWebBlog.Web.StaticWebAssets.Manifest.cache
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\staticwebassets\MyWebBlog.Web.StaticWebAssets.xml
@@ -222,3 +221,19 @@ C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Web\bin\Debug\netcorea
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\MyWebBlog.pdb
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\MyWebBlog.Web.Views.pdb
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\MyWebBlog.Web.csproj.CopyComplete
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\MyWebBlog.exe
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.exe
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\MyWebBlog.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.pdb
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\MyWebBlog.pdb
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\Razor\Views\Blog\BlogDetail.cshtml.g.cs
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\Razor\Views\Blog\BlogCreate.cshtml.g.cs
+C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Web\obj\Debug\netcoreapp3.1\Razor\Views\Blog\BlogUpdate.cshtml.g.cs

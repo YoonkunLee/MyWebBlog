@@ -1,11 +1,32 @@
-﻿@model MyWebBlog.ViewModel.BlogViewModel
+﻿@model List<MyWebBlog.ViewModel.BlogViewModel>
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1>Blog List</h1>
-
 <a href='@Url.Action("CreateBlog","Blog")'>
     <input type="button" value="Create" />
 </a>
 
+<table>
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Functions</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(item.title, "BlogDetail", "Blog", new {id = item.Id})</td>
+                <td>@item.writer</td>
+                <td>
+                    @Html.ActionLink("Update", "BlogUpdate", "Blog", new { id = item.Id })
+                    @Html.ActionLink("Delete", "BlogDelete", "Blog", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

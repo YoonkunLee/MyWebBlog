@@ -1,0 +1,2 @@
+﻿1. SqlClient
+2. Dapper

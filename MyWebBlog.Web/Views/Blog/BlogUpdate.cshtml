@@ -1,0 +1,23 @@
+﻿@model MyWebBlog.ViewModel.BlogViewModel;
+@{
+    ViewData["Title"] = "BlogUpdate";
+}
+
+<h1>BlogUpdate</h1>
+@using (Html.BeginForm("BlogUpdate", "Blog", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Id)
+    <div class="form-control">
+        @Html.LabelFor(m => m.writer)
+        @Html.TextBoxFor(m => m.writer)
+    </div>
+    <div class="form-control">
+        @Html.LabelFor(m => m.title)
+        @Html.TextBoxFor(m => m.title)
+    </div>
+    <div class="form-control">
+        @Html.LabelFor(m => m.body)
+        @Html.TextAreaFor(m => m.body)
+    </div>
+    <input type="submit" value="Submit"/>
+}
