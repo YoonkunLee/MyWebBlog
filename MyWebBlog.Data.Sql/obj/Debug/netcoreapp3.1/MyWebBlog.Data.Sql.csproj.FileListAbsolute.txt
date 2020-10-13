@@ -30,3 +30,15 @@ C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\ne
 C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Yoonkun Lee\Desktop\YK_Folder\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.exe
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.dll
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\bin\Debug\netcoreapp3.1\MyWebBlog.pdb
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\obj\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.csprojAssemblyReference.cache
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog.Data.Sql\obj\Debug\netcoreapp3.1\MyWebBlog.Data.Sql.csproj.CopyComplete

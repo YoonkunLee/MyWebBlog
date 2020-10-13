@@ -6484,11 +6484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog.Web\\MyWebBlog.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Yoonkun Lee\\Desktop\\projects\\MyWebBlog\\MyWebBlog.Web\\MyWebBlog.Web.csproj",
       "projectName": "MyWebBlog.Web",
-      "projectPath": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog.Web\\MyWebBlog.Web.csproj",
+      "projectPath": "C:\\Users\\Yoonkun Lee\\Desktop\\projects\\MyWebBlog\\MyWebBlog.Web\\MyWebBlog.Web.csproj",
       "packagesPath": "C:\\Users\\Yoonkun Lee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog.Web\\obj\\",
+      "outputPath": "C:\\Users\\Yoonkun Lee\\Desktop\\projects\\MyWebBlog\\MyWebBlog.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6507,11 +6507,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog.Data.Sql\\MyWebBlog.Data.Sql.csproj": {
-              "projectPath": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog.Data.Sql\\MyWebBlog.Data.Sql.csproj"
+            "C:\\Users\\Yoonkun Lee\\Desktop\\projects\\MyWebBlog\\MyWebBlog.Data.Sql\\MyWebBlog.Data.Sql.csproj": {
+              "projectPath": "C:\\Users\\Yoonkun Lee\\Desktop\\projects\\MyWebBlog\\MyWebBlog.Data.Sql\\MyWebBlog.Data.Sql.csproj"
             },
-            "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog\\MyWebBlog.csproj": {
-              "projectPath": "C:\\Users\\Yoonkun Lee\\Desktop\\YK_Folder\\MyWebBlog\\MyWebBlog\\MyWebBlog.csproj"
+            "C:\\Users\\Yoonkun Lee\\Desktop\\projects\\MyWebBlog\\MyWebBlog\\MyWebBlog.csproj": {
+              "projectPath": "C:\\Users\\Yoonkun Lee\\Desktop\\projects\\MyWebBlog\\MyWebBlog\\MyWebBlog.csproj"
             }
           }
         }
