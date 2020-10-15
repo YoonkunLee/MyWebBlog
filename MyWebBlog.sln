@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebBlog", "MyWebBlog\MyWebBlog.csproj", "{4E6F03ED-7029-4F96-A21B-DB57D585BB24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebBlog.Web", "MyWebBlog.Web\MyWebBlog.Web.csproj", "{501999A3-D134-44B4-B112-A66FD817018F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebBlog.Web", "MyWebBlog.Web\MyWebBlog.Web.csproj", "{501999A3-D134-44B4-B112-A66FD817018F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebBlog.Data.Sql", "MyWebBlog.Data.Sql\MyWebBlog.Data.Sql.csproj", "{BC41B91F-4F29-49A1-A384-5491CD4FD1BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebBlog.Data.Sql", "MyWebBlog.Data.Sql\MyWebBlog.Data.Sql.csproj", "{BC41B91F-4F29-49A1-A384-5491CD4FD1BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -37,12 +37,34 @@ namespace MyWebBlog.ServiceLayer.Blog
             return blogViewModel;
         }
 
-        public List<BlogViewModel> convertDataToViewModelList(List<BlogDataModel> dataBlogList)
+        public BlogListViewModel convertDataToListViewModel(BlogDataModel data)
         {
-            List<BlogViewModel> blogViewModelList = new List<BlogViewModel>();
-            foreach (var item in dataBlogList)
-            {        
-                blogViewModelList.Add(convertDataToViewModel(item));
+            BlogListViewModel blogListViewModel = new BlogListViewModel();
+            blogListViewModel.Id = data.Id;
+            blogListViewModel.Author = data.writer;
+            blogListViewModel.Title = data.title;           
+
+            DateTime localDate = DateTime.Now;
+            if (data.date.Date == localDate.Date)
+            {
+                blogListViewModel.Date = data.date.ToString("hh:mm tt");
+            }
+            else
+            {
+                blogListViewModel.Date = data.date.ToString("dd/MM/yyyy");
+            }
+
+            return blogListViewModel;
+        }
+
+        public List<BlogListViewModel> convertDataToViewModelList(List<BlogDataModel> dataBlogList)
+        {
+            List<BlogListViewModel> blogViewModelList = new List<BlogListViewModel>();
+            for(var i = 0; i < dataBlogList.Count; i++)
+            {
+                var result = convertDataToListViewModel(dataBlogList[i]);
+                result.Number = i + 1;
+                blogViewModelList.Add(result);
             }
 
             return blogViewModelList;
