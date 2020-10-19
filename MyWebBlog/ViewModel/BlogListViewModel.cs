@@ -11,5 +11,6 @@ namespace MyWebBlog.ViewModel
         public string Date { get; set; }
         public string Author { get; set; }
         public string Title { get; set; }
+        public string Thumbnail { get; set; }
     }
 }

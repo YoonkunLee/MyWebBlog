@@ -19,7 +19,7 @@ namespace MyWebBlog.Data.Sql.Database.DataAccess
 
         public void Create(BlogDataModel blog)
         {
-            string sql = "INSERT INTO blog(id, writer, date, title, body) VALUES (@id, @writer, @date, @title, @body)";
+            string sql = "INSERT INTO blog(id, writer, date, title, body, Thumbnail) VALUES (@id, @writer, @date, @title, @body, @Thumbnail)";
             using (var db = conn.ConnectDb())
             {
                 var result = db.Execute(sql, blog);
@@ -29,7 +29,7 @@ namespace MyWebBlog.Data.Sql.Database.DataAccess
         public List<BlogDataModel> GetBlogList()
         {
             List<BlogDataModel> blogs = new List<BlogDataModel>();
-            string sql = "SELECT * FROM blog";
+            string sql = "SELECT * FROM blog ORDER BY date DESC";
             using(var db = conn.ConnectDb())
             {
                 var result = db.Query<BlogDataModel>(sql);   

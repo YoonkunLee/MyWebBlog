@@ -2,16 +2,49 @@
 @{
     ViewData["Title"] = "BlogDetail";
 }
+<link href="~/css/BlogDetail.css" rel="stylesheet" />
 
-<h1>BlogDetail</h1>
-
-
-@Html.LabelFor(m => m.writer, new { @value = @Model.writer })
-@Html.TextBoxFor(m => m.writer)
-@Html.LabelFor(m => m.title)
-@Html.TextBoxFor(m => m.title)
-<div style="width:100%">
-    @Html.Raw(Model.body)
+<div>
+    <div class="title">
+        <h6 class="titleDetail">@Model.writer | @Model.date</h6>
+        <h1>@Model.title</h1>
+    </div>
+    <div class="blogBody">
+        @Html.Raw(Model.body)
+    </div>
 </div>
 
-
+<div class="recommendBox">
+    <h3 class="textCenter">Recommend</h3>
+    <div class="floatLeft">
+        @if (Model.previous.Title != null)
+        {   
+        <div class="recommendBoxArrowMargin">
+            <img class="floatLeft" src="~/images/left.png" style="width: 20px; height:20px;" />            
+            <h6 class="floatLeft">Previous</h6>
+        </div>
+        <div>
+            <a href=@Url.Action("BlogDetail", "Blog", new { id = Model.previous.Id })>
+                <img src="@Model.previous.Thumbnail" class="imageFullSize" />
+                <div class="textDecorationNone">@Model.previous.Title</div>
+            </a>        
+        </div>
+        
+        }
+    </div>
+    <div class="floatRight giveWidth">
+        @if (Model.next.Title != null)
+        {
+        <div class="recommendBoxArrowMargin">
+            <img class="floatRight" src="~/images/right.png" style="width:20px; height:20px;" />           
+            <h6 class="floatRight">Next</h6>
+        </div>
+        <div>
+            <a href=@Url.Action("BlogDetail", "Blog", new { id = Model.next.Id })>
+                <img src="@Model.next.Thumbnail" class="imageFullSize " />
+                <div class="textDecorationNone">@Model.next.Title</div>              
+            </a>
+        </div>         
+        }
+    </div>
+</div>

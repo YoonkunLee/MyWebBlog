@@ -10,5 +10,9 @@ namespace MyWebBlog.ViewModel
         public string writer { get; set; }
         public string body { get; set; }
         public string title { get; set; }
+        public string date { get; set; }
+
+        public virtual BlogDetailRecommend next { get; set; }
+        public virtual BlogDetailRecommend previous { get; set; }
     }
 }

@@ -1,0 +1,54 @@
+﻿.title {
+    text-align: center;
+    background-image: url(../images/index_banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top:300px;
+    padding-bottom: 20px;
+}
+.blogBody {
+    background-color: #fbfbfb;
+    padding: 10%
+}
+.titleDetail{
+    font-size:12px;
+}
+.floatLeft{
+    float: left;
+    margin-right: 15px;
+    width: 25%;
+}
+.floatRight {
+    float: right;
+    margin-left: 15px;
+    
+}
+
+.textCenter{
+    text-align: center;
+}
+.giveWidth {
+    width: 25%;
+}
+
+.recommendBox {
+    background-color: #e8e8e8;
+    padding: 5%;
+    overflow: hidden;
+}
+
+.recommendBoxArrowMargin {
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+
+.imageFullSize{
+    width: 100%;
+    height: auto;
+    margin-bottom:15px;
+}
+
+.textDecorationNone {
+    text-decoration: none;
+    color:black;
+}

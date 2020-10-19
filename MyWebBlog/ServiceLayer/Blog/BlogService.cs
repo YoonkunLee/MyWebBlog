@@ -20,6 +20,7 @@ namespace MyWebBlog.ServiceLayer.Blog
             BlogDataModel newBlog = new BlogDataModel();            
             newBlog.writer = blog.writer;
             newBlog.title = blog.title;
+            newBlog.Thumbnail = blog.thumbnail;
 
             for(var i =0; i<blog.body.Length; i++)
             {
@@ -38,7 +39,27 @@ namespace MyWebBlog.ServiceLayer.Blog
             blogDetailModel.writer = data.writer;
             blogDetailModel.title = data.title;
             blogDetailModel.body = data.body;
+            blogDetailModel.date = data.date.ToString("dd/MM/yyyy");
+            
+            return blogDetailModel;
+        }
 
+        public BlogDetailModel ConvertDataToDetailModel(BlogDataModel data, BlogDataModel previous, BlogDataModel next)
+        {
+            BlogDetailModel blogDetailModel = new BlogDetailModel();
+            blogDetailModel.Id = data.Id;
+            blogDetailModel.writer = data.writer;
+            blogDetailModel.title = data.title;
+            blogDetailModel.body = data.body;
+            blogDetailModel.date = data.date.ToString("dd/MM/yyyy");
+            blogDetailModel.previous = new BlogDetailRecommend();
+            blogDetailModel.next = new BlogDetailRecommend();
+            blogDetailModel.previous.Id = previous.Id;
+            blogDetailModel.previous.Title = previous.title;
+            blogDetailModel.previous.Thumbnail = previous.Thumbnail;
+            blogDetailModel.next.Id = next.Id;
+            blogDetailModel.next.Title = next.title;
+            blogDetailModel.next.Thumbnail = next.Thumbnail;
             return blogDetailModel;
         }
 

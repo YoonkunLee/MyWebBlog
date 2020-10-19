@@ -47,7 +47,26 @@ namespace MyWebBlog.Web.Controllers
         public IActionResult BlogDetail(Guid id)
         {
             BlogDataModel foundBlog = _blog.find(id);
-            var blog = blogservice.ConvertDataToDetailModel(foundBlog);
+            var list = _blog.GetBlogList();
+            BlogDataModel previous = new BlogDataModel();
+            BlogDataModel next = new BlogDataModel();
+            
+            for (var i=0; i<list.Count; i++)
+            {
+                if(foundBlog.date == list[i].date)
+                {
+                    if((i - 1) >= 0 )
+                    {
+                        previous = list[i - 1];
+                    }                   
+                    if((i+1) != list.Count)
+                    {
+                        next = list[i + 1];
+                    }                   
+                }
+            }
+
+            var blog = blogservice.ConvertDataToDetailModel(foundBlog, previous, next);
 
             return View(blog);
         }

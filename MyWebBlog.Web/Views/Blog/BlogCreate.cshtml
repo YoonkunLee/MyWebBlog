@@ -10,8 +10,10 @@
     @Html.TextBoxFor(m => m.writer)
     @Html.LabelFor(m => m.title)
     @Html.TextBoxFor(m => m.title)
+    @Html.LabelFor(m => m.thumbnail)
+    @Html.TextBoxFor(m => m.thumbnail)
     @Html.LabelFor(m => m.body)
-    @Html.TextAreaFor(m => m.body, new { @style="display:none", @id="hidden"})
+    @Html.TextAreaFor(m => m.body, new { @style = "display:none", @id = "hidden" })
     <div id="body"></div>
 
     <button type="submit" onclick="insert()" id="saveData">Save ssss</button>

@@ -19,3 +19,4 @@ C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.AssemblyInfo.cs
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.dll
 C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.pdb
+C:\Users\Yoonkun Lee\Desktop\projects\MyWebBlog\MyWebBlog\obj\Debug\netcoreapp3.1\MyWebBlog.csprojAssemblyReference.cache
