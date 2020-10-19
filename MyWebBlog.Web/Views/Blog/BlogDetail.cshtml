@@ -1,16 +1,17 @@
-﻿@model MyWebBlog.ViewModel.BlogViewModel;
+﻿@model MyWebBlog.ViewModel.BlogDetailModel;
 @{
     ViewData["Title"] = "BlogDetail";
 }
 
 <h1>BlogDetail</h1>
 
-@using(Html.BeginForm("SendBlogItem", "Blog", FormMethod.Post))
-{
-    @Html.LabelFor(m => m.writer, new { @value = @Model.writer })
-    @Html.TextBoxFor(m => m.writer)
-    @Html.LabelFor(m => m.title)
-    @Html.TextBoxFor(m => m.title)
-    @Html.LabelFor(m => m.body)
-    @Html.TextAreaFor(m => m.body, new { @class = "textboxsize" })
-}
+
+@Html.LabelFor(m => m.writer, new { @value = @Model.writer })
+@Html.TextBoxFor(m => m.writer)
+@Html.LabelFor(m => m.title)
+@Html.TextBoxFor(m => m.title)
+<div style="width:100%">
+    @Html.Raw(Model.body)
+</div>
+
+

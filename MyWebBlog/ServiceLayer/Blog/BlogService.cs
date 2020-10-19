@@ -20,21 +20,26 @@ namespace MyWebBlog.ServiceLayer.Blog
             BlogDataModel newBlog = new BlogDataModel();            
             newBlog.writer = blog.writer;
             newBlog.title = blog.title;
-            newBlog.body = blog.body;
+
+            for(var i =0; i<blog.body.Length; i++)
+            {
+                newBlog.body = newBlog.body + blog.body[i];
+            }
+            
             newBlog.date = DateTime.Now;
 
             return newBlog;
         }
 
-        public BlogViewModel convertDataToViewModel(BlogDataModel data)
+        public BlogDetailModel ConvertDataToDetailModel(BlogDataModel data)
         {
-            BlogViewModel blogViewModel = new BlogViewModel();
-            blogViewModel.Id = data.Id;
-            blogViewModel.writer = data.writer;
-            blogViewModel.title = data.title;
-            blogViewModel.body = data.body;
+            BlogDetailModel blogDetailModel = new BlogDetailModel();
+            blogDetailModel.Id = data.Id;
+            blogDetailModel.writer = data.writer;
+            blogDetailModel.title = data.title;
+            blogDetailModel.body = data.body;
 
-            return blogViewModel;
+            return blogDetailModel;
         }
 
         public BlogListViewModel convertDataToListViewModel(BlogDataModel data)

@@ -37,7 +37,6 @@ namespace MyWebBlog.Web.Controllers
             return RedirectToAction("Index", "Blog");            
         }
 
-
         public IActionResult BlogCreate()
         {
             BlogViewModel blog = new BlogViewModel();
@@ -48,7 +47,7 @@ namespace MyWebBlog.Web.Controllers
         public IActionResult BlogDetail(Guid id)
         {
             BlogDataModel foundBlog = _blog.find(id);
-            var blog = blogservice.convertDataToViewModel(foundBlog);
+            var blog = blogservice.ConvertDataToDetailModel(foundBlog);
 
             return View(blog);
         }
@@ -56,7 +55,7 @@ namespace MyWebBlog.Web.Controllers
         public IActionResult BlogUpdate(Guid id)
         {
             BlogDataModel foundBlog = _blog.find(id);
-            var blog = blogservice.convertDataToViewModel(foundBlog);
+            var blog = blogservice.ConvertDataToDetailModel(foundBlog);
 
             return View(blog);
         }
